@@ -1,12 +1,13 @@
 import React from 'react';
-import {View} from 'react-native';
+import {Text, View} from 'react-native';
 import YouTube from 'react-native-youtube';
 
 export default function VideoPlayer() {
   return (
     <View>
+      <Text>Vide player</Text>
       <YouTube
-        // videoId="O433Arp-l0E" // The YouTube video ID
+        videoId="O433Arp-l0E" // The YouTube video ID
         // playlistId="PLOrIp4IaHcFOzmh14dFsMq0eZQjz4nzza"
         play // control playback of video with true/false
         fullscreen // control whether the video should play in fullscreen or inline
@@ -16,7 +17,7 @@ export default function VideoPlayer() {
         // onChangeQuality={e => this.setState({quality: e.quality})}
         // onError={e => this.setState({error: e.error})}
         style={{alignSelf: 'stretch', height: 250}}
-        apiKey="12346"
+        apiKey="-------your api key------"
       />
     </View>
   );

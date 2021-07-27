@@ -1,8 +1,10 @@
 import React from 'react';
-import VideoPlayer from './src/VideoPlayer/VideoPlayer';
+import VideoInModal from './src/VideoPlayer/Modal/Modal';
+// import VideoPlayer from './src/VideoPlayer/VideoPlayer';
 // import PushNotificationDemo from './src/Notifications/PushNotification/PushNotificationDemo';
 
 export default function App() {
-  return <VideoPlayer />;
+  return <VideoInModal />;
+  // return <VideoPlayer />;
   // return <PushNotificationDemo />;
 }
